@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Briem Hand", cursive;
+  background-color: rgb(190, 190, 204);
+}
+.main-components {
+  width: 50%;
+  height: 100vh;
+  margin: 50px auto;
+  background-color: rgb(210, 215, 220);
+}
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  width: 75%;
+  height: 35px;
+  padding: 17px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.btnAdd {
+  padding: 5px;
+  background-color: rgb(140, 99, 178);
+  border: none;
+  border-radius: 10px;
+}
+.item-of-section {
+  width: 100%;
+  border: 0.5px solid #000;
+  margin-top: 5px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-list {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 450px) {
+  .main-components {
+    width: 100%;
+    height: 100vh;
+  }
+  .btnAdd {
+    background-color: rgb(130, 109, 151);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-components {
+    width: 100%;
+    height: 100vh;
+  }
+  .btnAdd {
+    background-color: rgb(130, 109, 151);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
